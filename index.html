@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Shopping Card</title>
+
+      <link href="https://cdn.jsdelivr.net/npm/daisyui@3.9.1/dist/full.css" rel="stylesheet" type="text/css" />
+      <script src="https://cdn.tailwindcss.com"></script>
+      <html data-theme="emerald">
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="./style.css">
+
+      </html>
+</head>
+
+<body>
+      <h1 class=" text-3xl md:text-4xl lg:text-7xl py-6 text-center font-bold font-family">Most Popular Women's Shoes Collection</h1>
+
+      <main class="flex px-5 flex-col lg:flex-row container mx-auto gap-5 ">
+            <div class="container mx-auto mt-7 flex-1   grid md:grid-cols-2 lg:grid-cols-3 gr justify-center items-center gap-5">
+                  <!--  01 -->
+                  <div id="item" class="border border-red-300 p-5 bg-gray-200">
+                        <div class="w-[300px] flex justify-center items-center"><img class="w-[300px]" src="./img/1.jpg " alt=""></div>
+                        <h1 class=" text-xl text-center mt-5 top-7 font-medium">Read Hells</h1>
+                        <h1 class=" text-lg text-center mt-5 top-7 font-medium">Price: <span class="first-price">550</span> Taka</h1>
+                        <div class="flex justify-center items-center">
+                              <label class="text-[18px] font-bold py-5" for="">SIZE :</label>
+                              <select class="bg-red-100" name="" id="">
+                                    <option value="">30</option>
+                                    <option value="">32</option>
+                                    <option value="">34</option>
+                                    <option value="">36</option>
+                              </select>
+                        </div>
+                        <div class="flex justify-center items-center">
+                              <button onclick="addToCardHandleClick(this)" class=" rounded-lg hover:bg-pink-600 py-4 px-9 bg-pink-500 text-xl text-white  font-bold ">ADD Card</button>
+                        </div>
+                  </div>
+                  <!--  02 -->
+                  <div id="item" class="border border-red-300 p-5 bg-gray-200">
+                        <div class=" flex justify-center items-center"><img class="w-[300px]" src="./img/1.jpg" alt=""></div>
+                        <h1 class=" text-xl text-center mt-5 top-7 font-medium">Black Hells</h1>
+                        <h1 class=" text-lg text-center mt-5 top-7 font-medium">Price: <span id="second-price">600</span> Taka</h1>
+                        <div class="flex justify-center items-center">
+                              <label class="text-[18px] font-bold py-5" for="">SIZE :</label>
+                              <select class="bg-red-100" name="" id="">
+                                    <option value="">30</option>
+                                    <option value="">32</option>
+                                    <option value="">34</option>
+                                    <option value="">36</option>
+                              </select>
+                        </div>
+                        <div class="flex justify-center items-center">
+                              <button onclick="addToCardHandleClick(this)" class=" rounded-lg hover:bg-pink-600 py-4 px-9 bg-pink-500 text-xl text-white  font-bold ">ADD Card</button>
+                        </div>
+                  </div>
+                  <!--  03 -->
+                  <div id="item" class="border border-red-300 p-5 bg-gray-200">
+                        <div class="  flex justify-center items-center"><img class="w-[300px]" src="./img/1.jpg " alt=""></div>
+                        <h1 class=" text-xl text-center mt-5 top-7 font-medium">Black Hells</h1>
+                        <h1 class=" text-lg text-center mt-5 top-7 font-medium">Price: <span id="second-price">450</span> Taka</h1>
+                        <div class="flex justify-center items-center">
+                              <label class="text-[18px] font-bold py-5" for="">SIZE :</label>
+                              <select class="bg-red-100" name="" id="">
+                                    <option value="">30</option>
+                                    <option value="">32</option>
+                                    <option value="">34</option>
+                                    <option value="">36</option>
+                              </select>
+                        </div>
+                        <div class="flex justify-center items-center">
+                              <button onclick="addToCardHandleClick(this)" class=" rounded-lg hover:bg-pink-600 py-4 px-9 bg-pink-500 text-xl text-white  font-bold ">ADD Card</button>
+                        </div>
+                  </div>
+                  <!--  04-->
+                  <div id="item" class="border border-red-300 p-5 bg-gray-200">
+                        <div class="w-[300px] flex justify-center items-center"><img class="w-[300px]" src="./img/1.jpg " alt=""></div>
+                        <h1 class=" text-xl text-center mt-5 top-7 font-medium">Black Hells</h1>
+                        <h1 class=" text-lg text-center mt-5 top-7 font-medium">Price: <span id="second-price">850</span> Taka</h1>
+                        <div class="flex justify-center items-center">
+                              <label class="text-[18px] font-bold py-5" for="">SIZE :</label>
+                              <select class="bg-red-100" name="" id="">
+                                    <option value="">30</option>
+                                    <option value="">32</option>
+                                    <option value="">34</option>
+                                    <option value="">36</option>
+                              </select>
+                        </div>
+                        <div class="flex justify-center items-center">
+                              <button onclick="addToCardHandleClick(this)" class=" rounded-lg hover:bg-pink-600 py-4 px-9 bg-pink-500 text-xl text-white  font-bold ">ADD Card</button>
+                        </div>
+                  </div>
+                  <!--  05 -->
+                  <div id="item" class="border border-red-300 p-5 bg-gray-200">
+                        <div class="w-[300px] flex justify-center items-center"><img class="w-[300px]" src="./img/1.jpg " alt=""></div>
+                        <h1 class=" text-xl text-center mt-5 top-7 font-medium">Black Hells</h1>
+                        <h1 class=" text-lg text-center mt-5 top-7 font-medium">Price: <span id="second-price">550</span> Taka</h1>
+                        <div class="flex justify-center items-center">
+                              <label class="text-[18px] font-bold py-5" for="">SIZE :</label>
+                              <select class="bg-red-100" name="" id="">
+                                    <option value="">30</option>
+                                    <option value="">32</option>
+                                    <option value="">34</option>
+                                    <option value="">36</option>
+                              </select>
+                        </div>
+                        <div class="flex justify-center items-center">
+                              <button onclick="addToCardHandleClick(this)" class=" rounded-lg hover:bg-pink-600 py-4 px-9 bg-pink-500 text-xl text-white  font-bold ">ADD Card</button>
+                        </div>
+                  </div>
+                  <!--  06 -->
+                  <div id="item" class="border border-red-300 p-5 bg-gray-200">
+                        <div class=" flex justify-center  items-center"><img class="w-[300px]" src="./img/1.jpg " alt=""></div>
+                        <h1 class=" text-xl text-center mt-5 top-7 font-medium">Black Hells</h1>
+                        <h1 class=" text-lg text-center mt-5 top-7 font-medium">Price: <span id="second-price">450</span> Taka</h1>
+                        <div class="flex justify-center items-center">
+                              <label class="text-[18px] font-bold py-5" for="">SIZE :</label>
+                              <select class="bg-red-100" name="" id="">
+                                    <option value="">30</option>
+                                    <option value="">32</option>
+                                    <option value="">34</option>
+                                    <option value="">36</option>
+                              </select>
+                        </div>
+                        <div class="flex justify-center items-center">
+                              <button onclick="addToCardHandleClick(this)" class=" rounded-lg hover:bg-pink-600 py-4 px-9 bg-pink-500 text-xl text-white  font-bold ">ADD Card</button>
+                        </div>
+                  </div>
+                  <!--  07 -->
+                  <div id="item" class="border border-red-300 p-5 bg-gray-200">
+                        <div class=" flex justify-center  items-center"><img class="w-[300px]" src="./img/1.jpg " alt=""></div>
+                        <h1 class=" text-xl text-center mt-5 top-7 font-medium">Black Hells</h1>
+                        <h1 class=" text-lg text-center mt-5 top-7 font-medium">Price: <span id="second-price">450</span> Taka</h1>
+                        <div class="flex justify-center items-center">
+                              <label class="text-[18px] font-bold py-5" for="">SIZE :</label>
+                              <select class="bg-red-100" name="" id="">
+                                    <option value="">30</option>
+                                    <option value="">32</option>
+                                    <option value="">34</option>
+                                    <option value="">36</option>
+                              </select>
+                        </div>
+                        <div class="flex justify-center items-center">
+                              <button onclick="addToCardHandleClick(this)" class=" rounded-lg hover:bg-pink-600 py-4 px-9 bg-pink-500 text-xl text-white  font-bold ">ADD Card</button>
+                        </div>
+                  </div>
+                  <!--  08 -->
+                  <div id="item" class="border border-red-300 p-5 bg-gray-200">
+                        <div class=" flex justify-center  items-center"><img class="w-[300px]" src="./img/1.jpg " alt=""></div>
+                        <h1 class=" text-xl text-center mt-5 top-7 font-medium">Black Hells</h1>
+                        <h1 class=" text-lg text-center mt-5 top-7 font-medium">Price: <span id="second-price">450</span> Taka</h1>
+                        <div class="flex justify-center items-center">
+                              <label class="text-[18px] font-bold py-5" for="">SIZE :</label>
+                              <select class="bg-red-100" name="" id="">
+                                    <option value="">30</option>
+                                    <option value="">32</option>
+                                    <option value="">34</option>
+                                    <option value="">36</option>
+                              </select>
+                        </div>
+                        <div class="flex justify-center items-center">
+                              <button onclick="addToCardHandleClick(this)" class=" rounded-lg hover:bg-pink-600 py-4 px-9 bg-pink-500 text-xl text-white  font-bold ">ADD Card</button>
+                        </div>
+                  </div>
+                  <!--  09 -->
+                  <div id="item" class="border border-red-300 p-5 bg-gray-200">
+                        <div class=" flex justify-center  items-center"><img class="w-[300px]" src="./img/1.jpg " alt=""></div>
+                        <h1 class=" text-xl text-center mt-5 top-7 font-medium">Black Hells</h1>
+                        <h1 class=" text-lg text-center mt-5 top-7 font-medium">Price: <span id="second-price">450</span> Taka</h1>
+                        <div class="flex justify-center items-center">
+                              <label class="text-[18px] font-bold py-5" for="">SIZE :</label>
+                              <select class="bg-red-100" name="" id="">
+                                    <option value="">30</option>
+                                    <option value="">32</option>
+                                    <option value="">34</option>
+                                    <option value="">36</option>
+                              </select>
+                        </div>
+                        <div class="flex justify-center items-center">
+                              <button onclick="addToCardHandleClick(this)" class=" rounded-lg hover:bg-pink-600 py-4 px-9 bg-pink-500 text-xl text-white  font-bold ">ADD Card</button>
+                        </div>
+                  </div>
+                  <!--  10-->
+                  <div id="item" class="border border-red-300 p-5 bg-gray-200">
+                        <div class=" flex justify-center  items-center"><img class="w-[300px]" src="./img/1.jpg " alt=""></div>
+                        <h1 class=" text-xl text-center mt-5 top-7 font-medium">Black Hells</h1>
+                        <h1 class=" text-lg text-center mt-5 top-7 font-medium">Price: <span id="second-price">450</span> Taka</h1>
+                        <div class="flex justify-center items-center">
+                              <label class="text-[18px] font-bold py-5" for="">SIZE :</label>
+                              <select class="bg-red-100" name="" id="">
+                                    <option value="">30</option>
+                                    <option value="">32</option>
+                                    <option value="">34</option>
+                                    <option value="">36</option>
+                              </select>
+                        </div>
+                        <div class="flex justify-center items-center">
+                              <button onclick="addToCardHandleClick(this)" class=" rounded-lg hover:bg-pink-600 py-4 px-9 bg-pink-500 text-xl text-white  font-bold ">ADD Card</button>
+                        </div>
+                  </div>
+                  <!-- 11 -->
+                  <div id="item" class="border border-red-300 p-5 bg-gray-200">
+                        <div class=" flex justify-center  items-center"><img class="w-[300px]" src="./img/1.jpg " alt=""></div>
+                        <h1 class=" text-xl text-center mt-5 top-7 font-medium">Black Hells</h1>
+                        <h1 class=" text-lg text-center mt-5 top-7 font-medium">Price: <span id="second-price">450</span> Taka</h1>
+                        <div class="flex justify-center items-center">
+                              <label class="text-[18px] font-bold py-5" for="">SIZE :</label>
+                              <select class="bg-red-100" name="" id="">
+                                    <option value="">30</option>
+                                    <option value="">32</option>
+                                    <option value="">34</option>
+                                    <option value="">36</option>
+                              </select>
+                        </div>
+                        <div class="flex justify-center items-center">
+                              <button onclick="addToCardHandleClick(this)" class=" rounded-lg hover:bg-pink-600 py-4 px-9 bg-pink-500 text-xl text-white  font-bold ">ADD Card</button>
+                        </div>
+                  </div>
+                  <!-- 12 -->
+                  <div id="item" class="border border-red-300 p-5 bg-gray-200">
+                        <div class=" flex justify-center  items-center"><img class="w-[300px]" src="./img/1.jpg " alt=""></div>
+                        <h1 class=" text-xl text-center mt-5 top-7 font-medium">Black Hells</h1>
+                        <h1 class=" text-lg text-center mt-5 top-7 font-medium">Price: <span id="second-price">450</span> Taka</h1>
+                        <div class="flex justify-center items-center">
+                              <label class="text-[18px] font-bold py-5" for="">SIZE :</label>
+                              <select class="bg-red-100" name="" id="">
+                                    <option value="">30</option>
+                                    <option value="">32</option>
+                                    <option value="">34</option>
+                                    <option value="">36</option>
+                              </select>
+                        </div>
+                        <div class="flex justify-center items-center">
+                              <button onclick="addToCardHandleClick(this)" class=" rounded-lg hover:bg-pink-600 py-4 px-9 bg-pink-500 text-xl text-white  font-bold ">ADD Card</button>
+                        </div>
+                  </div>
+                  <!-- 13 -->
+                  <div id="item" class="border border-red-300 p-5 bg-gray-200">
+                        <div class=" flex justify-center  items-center"><img class="w-[300px]" src="./img/1.jpg " alt=""></div>
+                        <h1 class=" text-xl text-center mt-5 top-7 font-medium">Black Hells</h1>
+                        <h1 class=" text-lg text-center mt-5 top-7 font-medium">Price: <span id="second-price">450</span> Taka</h1>
+                        <div class="flex justify-center items-center">
+                              <label class="text-[18px] font-bold py-5" for="">SIZE :</label>
+                              <select class="bg-red-100" name="" id="">
+                                    <option value="">30</option>
+                                    <option value="">32</option>
+                                    <option value="">34</option>
+                                    <option value="">36</option>
+                              </select>
+                        </div>
+                        <div class="flex justify-center items-center">
+                              <button onclick="addToCardHandleClick(this)" class=" rounded-lg hover:bg-pink-600 py-4 px-9 bg-pink-500 text-xl text-white  font-bold ">ADD Card</button>
+                        </div>
+                  </div>
+                  <!-- 14 -->
+                  <div id="item" class="border border-red-300 p-5 bg-gray-200">
+                        <div class=" flex justify-center  items-center"><img class="w-[300px]" src="./img/1.jpg " alt=""></div>
+                        <h1 class=" text-xl text-center mt-5 top-7 font-medium">Black Hells</h1>
+                        <h1 class=" text-lg text-center mt-5 top-7 font-medium">Price: <span id="second-price">450</span> Taka</h1>
+                        <div class="flex justify-center items-center">
+                              <label class="text-[18px] font-bold py-5" for="">SIZE :</label>
+                              <select class="bg-red-100" name="" id="">
+                                    <option value="">30</option>
+                                    <option value="">32</option>
+                                    <option value="">34</option>
+                                    <option value="">36</option>
+                              </select>
+                        </div>
+                        <div class="flex justify-center items-center">
+                              <button onclick="addToCardHandleClick(this)" class=" rounded-lg hover:bg-pink-600 py-4 px-9 bg-pink-500 text-xl text-white  font-bold ">ADD Card</button>
+                        </div>
+                  </div>
+                  <!-- 15 -->
+                  <div id="item" class="border border-red-300 p-5 bg-gray-200">
+                        <div class=" flex justify-center  items-center"><img class="w-[300px]" src="./img/1.jpg " alt=""></div>
+                        <h1 class=" text-xl text-center mt-5 top-7 font-medium">Black Hells</h1>
+                        <h1 class=" text-lg text-center mt-5 top-7 font-medium">Price: <span id="second-price">450</span> Taka</h1>
+                        <div class="flex justify-center items-center">
+                              <label class="text-[18px] font-bold py-5" for="">SIZE :</label>
+                              <select class="bg-red-100" name="" id="">
+                                    <option value="">30</option>
+                                    <option value="">32</option>
+                                    <option value="">34</option>
+                                    <option value="">36</option>
+                              </select>
+                        </div>
+                        <div class="flex justify-center items-center">
+                              <button onclick="addToCardHandleClick(this)" class=" rounded-lg hover:bg-pink-600 py-4 px-9 bg-pink-500 text-xl text-white  font-bold ">ADD Card</button>
+                        </div>
+                  </div>
+                  <!-- 16 -->
+                  <div id="item" class="border border-red-300 p-5 bg-gray-200">
+                        <div class=" flex justify-center  items-center"><img class="w-[300px]" src="./img/1.jpg " alt=""></div>
+                        <h1 class=" text-xl text-center mt-5 top-7 font-medium">Black Hells</h1>
+                        <h1 class=" text-lg text-center mt-5 top-7 font-medium">Price: <span id="second-price">450</span> Taka</h1>
+                        <div class="flex justify-center items-center">
+                              <label class="text-[18px] font-bold py-5" for="">SIZE :</label>
+                              <select class="bg-red-100" name="" id="">
+                                    <option value="">30</option>
+                                    <option value="">32</option>
+                                    <option value="">34</option>
+                                    <option value="">36</option>
+                              </select>
+                        </div>
+                        <div class="flex justify-center items-center">
+                              <button onclick="addToCardHandleClick(this)" class=" rounded-lg hover:bg-pink-600 py-4 px-9 bg-pink-500 text-xl text-white  font-bold ">ADD Card</button>
+                        </div>
+                  </div>
+                  
+            </div>
+            <!-- Total Card Items Price -->
+            <div class="w-[350px] mt-7 h-[600px]  p-5">
+                  <h1 class="text-2xl font-bold text-center" >Card Items</h1>
+                  <hr>
+                  <div id="items-box">
+                  </div>
+                  <h1 class="text-2xl font-bold text-center" >Card Items Price</h1>
+                  <hr>
+                  <div id="items-box-price">     
+                  </div>
+                  <h1 class="text-2xl font-bold text-center" >Total Card Items Price</h1>
+                  <hr>
+                  <div id="-total-card-item-price">  
+                        <h1>total Price: <span id="display_Prices">00</span>Taka</h1>   
+                  </div>
+                  <hr>
+                  <br><br>
+                  <div class="flex justify-center items-center">
+                        <button onclick="my_modal_5.showModal()" class=" rounded-lg hover:bg-pink-600 py-4 px-9 bg-pink-500 text-xl text-white  font-bold ">ADD Card</button>
+                  </div>
+            </div>
+      </main>
+      
+      <!-- new modal -->
+            <!-- Open the modal using ID.showModal() method -->
+
+            <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+                  <div class="modal-box">
+                        <div class=" text-center">
+                             <div class="flex justify-center items-center">
+                              <img src="./img//congo.png" alt="">
+                             </div>
+                              <h3 class=" my-4 text-base md:text-[35px] lg:text-[45px] font-extrabold">Congratulations!</h3>
+                        <p class="py-6 text-xl">Your Purchase the product</p>
+                        </div>
+                        <div class=" flex justify-center items-center">
+                              <form method="dialog">
+                                    <button onclick="window.location.reload();" class=" py-4 px-10 text-white rounded-lg bg-[#e527b2]">GO HOME</button>
+                              </form>
+                        </div>
+                  </div>
+            </dialog>
+      <!-- new modal -->
+</body>
+<script src="./js//javascript.js"></script>
+
+</html>
